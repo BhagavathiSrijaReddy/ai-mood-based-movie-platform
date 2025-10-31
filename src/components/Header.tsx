@@ -42,7 +42,7 @@ export default function Header({ onLoginClick, onSignupClick }: HeaderProps) {
             <div className="absolute inset-0 bg-accent/20 blur-xl group-hover:bg-accent/40 transition-all" />
           </div>
           <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            watchAura
+            WatchAura
           </span>
         </Link>
 

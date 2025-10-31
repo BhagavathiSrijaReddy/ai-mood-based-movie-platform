@@ -13,7 +13,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center space-x-2">
               <Film className="h-8 w-8 text-primary" />
               <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                watchAura
+                WatchAura
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">

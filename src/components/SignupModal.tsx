@@ -56,12 +56,10 @@ export default function SignupModal({ isOpen, onClose, onSwitchToLogin }: Signup
       return
     }
 
-    // Success - redirect to login
-    setIsLoading(false)
-    onClose()
-    router.push("/login?registered=true")
-    // Switch to login modal
-    onSwitchToLogin()
+  // Success - redirect to the login page (login page will open the modal)
+  setIsLoading(false)
+  onClose()
+  router.push("/login?registered=true")
   }
 
   return (
