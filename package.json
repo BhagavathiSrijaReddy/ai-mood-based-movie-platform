@@ -5,9 +5,8 @@
     "scripts": {
         "dev": "next dev --turbopack",
         "build": "next build",
-        "start": "next start",
         "lint": "next lint",
-        "start": "node server.js"
+        "start": "next start"
     },
     "dependencies": {
         "@babel/parser": "^7.28.4",
